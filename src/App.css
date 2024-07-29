@@ -1,0 +1,81 @@
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+ 
+}
+
+.h1 {
+  margin : 10px 0 10px 0;
+  background-color: green;
+  color: beige;
+  padding: 10px;
+  text-align: center;
+}
+
+.h2{
+  margin : 10px 0 10px 0;
+  background-color: green;
+  color: beige;
+  padding: 10px;
+  text-align: center;
+}
+
+.h3{
+  margin : 10px 0 10px 0;
+  background-color: green;
+  color: beige;
+  padding: 10px;
+  text-align: center;
+}
+
+.smallerdiv {
+ display: flex;
+ padding: 20px;
+}
+.left-container h2 {
+  color: red;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.heading-container {
+  color: white;
+  padding:10px 5px 5px 5px;
+  margin:5px 5px 5px 5px;
+  font-size: small;
+}
+
+.left-container {
+  background-color: whitesmoke; 
+  padding: 5px;
+  margin-right: 20px; /* Space between left div and main content */
+  border-radius: 10px; /* Optional: add rounded corners */
+   width: 300px; 
+  box-shadow: 2px 4px 20px silver;
+ 
+}
+
+.blue-background {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  margin-bottom: 10px; /* Space between headings */
+  border-radius: 5px; /* Optional: add rounded corners */
+}
+
+
+
+  
+
+
+
