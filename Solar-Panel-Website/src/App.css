@@ -1,0 +1,276 @@
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  padding: 20px;
+}
+/* .h1 {
+  margin : 10px 0 10px 0;
+  background-color: green;
+  color: beige;
+  padding: 10px;
+  text-align: center;
+}
+
+.h2{
+  margin : 10px 0 10px 0;
+  background-color: green;
+  color: beige;
+  padding: 10px;
+  text-align: center;
+}
+
+.h3{
+  margin : 10px 0 10px 0;
+  background-color: green;
+  color: beige;
+  padding: 10px;
+  text-align: center;
+}
+
+.smallerdiv {
+ display: flex;
+ padding: 20px;
+}
+.left-container h2 {
+  color: red;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.heading-container {
+  color: white;
+  padding:10px 5px 5px 5px;
+  margin:5px 5px 5px 5px;
+  font-size: small;
+}
+
+.left-container {
+  background-color: whitesmoke; 
+  padding: 5px;
+  margin-right: 20px; 
+  border-radius: 10px; 
+   width: 300px; 
+  box-shadow: -2px 0 20px silver;
+ 
+}
+
+.blue-background {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  margin-bottom: 10px; 
+  border-radius: 5px; 
+} */
+
+.header {
+  background-color: #f1f1f1; /* Background color for the header (optional) */
+  display: flex; /* Use Flexbox for layout */
+}
+
+.heading {
+  display: flex; /* Flexbox layout for images */
+  width: 100%; /* Make the heading div take up the full width of the header */
+}
+
+.logo-image {
+  max-width: 150px; /* Set a maximum width for the logo image */
+  height: 150px; /* Maintain aspect ratio */
+  flex-shrink: 0; /* Prevent the image from shrinking */
+  /* background-color: #EE6706; */
+}
+
+.regular-image {
+  flex-grow: 1; /* Allow the image to grow and fill the remaining space */
+  max-width: 100%; /* Prevent the image from exceeding the container width */
+  height: 150px; /* Maintain aspect ratio */
+}
+
+
+.div1 {
+  width: 300px; 
+  height: 300px; 
+  overflow: hidden; 
+  border: 1px solid white; 
+  margin: 20px 0 0 20px;
+  box-shadow: 2px 2px 10px grey;
+  border-radius: 20px;
+  position: relative; 
+  /* line-height: 0; */
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display:block;
+  
+}
+
+.overlay-text {
+  position: absolute; 
+  top: 10px; 
+  left: 10px; 
+  color: black; 
+  font-size: 18px;
+  font-weight: bold;
+  text-align:left ; 
+  padding: 5px; 
+}
+
+.highlight-heading{
+  color:#EE6706;
+}
+
+.div2 {
+  width: 300px; 
+  height: 300px; 
+  overflow: hidden; 
+  border: 1px solid white; 
+  box-shadow: 2px 2px 10px grey;
+  border-radius: 20px;
+  position: relative; 
+  padding: 20px;
+}
+
+
+.div-heading {
+  font-size: 18px; 
+  text-align: center; 
+  margin: 0; 
+  padding: 5px 0; 
+}
+
+.solarimg {
+  width: 100%; 
+  height: 100px; 
+  object-fit: cover; 
+  margin: 10px 0; 
+  border-radius: 10px;
+}
+
+.div3 {
+  width: 300px; 
+  height: 300px; 
+  overflow: hidden; 
+  border: 1px solid white; 
+  margin: 20px 0 0 20px;
+  box-shadow: 2px 2px 10px grey;
+  border-radius: 20px;
+  position: relative; 
+  padding: 15px;
+}
+
+.procedure-heading{
+  padding: 10px;
+}
+
+.main-heading {
+  font-weight: bold; 
+}
+
+.sub-heading {
+  font-weight: normal; 
+}
+
+.image-text-container {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100%; 
+  padding: 20px; 
+  box-sizing: border-box; 
+}
+
+.div1, .div2, .div3 {
+  flex: 1; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  margin: 50px; 
+  box-sizing: border-box; 
+}
+
+.content-img{
+  width: 100%; 
+  max-width: 1000px;
+  padding: 10px; 
+  box-sizing: border-box;
+  box-shadow: -2px -2px 10px grey;
+  margin: 10px 0 0 200px;
+  border-radius: 20px;
+}
+
+.contentimg{
+  width: 100%; 
+  height: 350px; 
+  object-fit: cover; 
+  display: block;
+}
+
+.footer1 {
+  background-color: #60C6F2; 
+  padding: 20px; 
+  text-align: center;
+  box-sizing: border-box; 
+  margin-top: 30px;
+}
+
+.footer-links {
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  gap: 15px; 
+}
+
+.footer-links a {
+  color: #000000; 
+  text-decoration: none; 
+  font-size: 14px; 
+}
+
+.footer-links a:hover {
+  text-decoration: underline; 
+}
+
+.footer-links span {
+  color: #000000; 
+  font-size: 14px; 
+}
+
+.footer2 {
+  background-color: #8CDAFB; 
+  padding: 20px; 
+  text-align: center; 
+  box-sizing: border-box; 
+}
+
+.footer-content {
+  font-size: 14px; 
+  font-weight: bold;
+  color: black; 
+}
+
+.footer-content p {
+  margin: 5px 0; 
+}
+
+.highlight-red{
+  color:#EE6706;
+}
+
+
+
+
+
+
+
+
+  
+
+
+
