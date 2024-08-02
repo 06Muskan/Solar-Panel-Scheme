@@ -1,0 +1,71 @@
+.signup-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-shadow: 2px 2px 10px grey;
+}
+  
+.signup-heading {
+    margin-bottom: 20px;
+    
+}
+  
+.signup-heading h4 {
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+}
+
+.login-prompt p {
+    font-size: 15px; 
+    color: #333;
+}
+  
+.login-prompt strong {
+    font-weight: bold; 
+    margin-left: 15px; 
+}
+
+.placeholder-part {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    margin-top: 30px;
+}
+  
+.placeholder-part input {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    font-size: 16px; 
+}
+
+.confirm-part {
+    margin:5px;
+    display: flex;
+    font-size: 15px;
+}
+.confirm-part .fa-solid fa-circle-check {
+    color: #74C0FC;
+    font-size: 10px;
+}
+
+.signup-button {
+    width:100%;
+    margin:50px 0px;
+    padding: 5px;
+    background-color:#60C6F2 ;
+    font-weight: bolder;
+    border:1px solid white;
+    border-radius:10px ;
+}
+  
+
+  

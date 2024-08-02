@@ -8,86 +8,29 @@ body {
 main {
   padding: 20px;
 }
-/* .h1 {
-  margin : 10px 0 10px 0;
-  background-color: green;
-  color: beige;
-  padding: 10px;
-  text-align: center;
-}
 
-.h2{
-  margin : 10px 0 10px 0;
-  background-color: green;
-  color: beige;
-  padding: 10px;
-  text-align: center;
-}
-
-.h3{
-  margin : 10px 0 10px 0;
-  background-color: green;
-  color: beige;
-  padding: 10px;
-  text-align: center;
-}
-
-.smallerdiv {
- display: flex;
- padding: 20px;
-}
-.left-container h2 {
-  color: red;
-  padding-top: 10px;
-  padding-left: 10px;
-}
-
-.heading-container {
-  color: white;
-  padding:10px 5px 5px 5px;
-  margin:5px 5px 5px 5px;
-  font-size: small;
-}
-
-.left-container {
-  background-color: whitesmoke; 
-  padding: 5px;
-  margin-right: 20px; 
-  border-radius: 10px; 
-   width: 300px; 
-  box-shadow: -2px 0 20px silver;
- 
-}
-
-.blue-background {
-  background-color: blue;
-  color: white;
-  padding: 15px;
-  margin-bottom: 10px; 
-  border-radius: 5px; 
-} */
 
 .header {
-  background-color: #f1f1f1; /* Background color for the header (optional) */
-  display: flex; /* Use Flexbox for layout */
+  background-color: #f1f1f1; 
+  display: flex; 
 }
 
 .heading {
-  display: flex; /* Flexbox layout for images */
-  width: 100%; /* Make the heading div take up the full width of the header */
+  display: flex; 
+  width: 100%; 
 }
 
 .logo-image {
-  max-width: 150px; /* Set a maximum width for the logo image */
-  height: 150px; /* Maintain aspect ratio */
-  flex-shrink: 0; /* Prevent the image from shrinking */
-  /* background-color: #EE6706; */
+  max-width: 150px;
+  height: 150px; 
+  flex-shrink: 0; 
+  
 }
 
 .regular-image {
-  flex-grow: 1; /* Allow the image to grow and fill the remaining space */
-  max-width: 100%; /* Prevent the image from exceeding the container width */
-  height: 150px; /* Maintain aspect ratio */
+  flex-grow: 1;
+  max-width: 100%; 
+  height: 150px; 
 }
 
 
@@ -262,6 +205,7 @@ main {
 .highlight-red{
   color:#EE6706;
 }
+
 
 
 
